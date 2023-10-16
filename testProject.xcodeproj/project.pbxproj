@@ -16,6 +16,7 @@
 		94DFF3E12ADD8AE700B40EBA /* testProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DFF3E02ADD8AE700B40EBA /* testProjectTests.swift */; };
 		94DFF3EB2ADD8AE700B40EBA /* testProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DFF3EA2ADD8AE700B40EBA /* testProjectUITests.swift */; };
 		94DFF3ED2ADD8AE700B40EBA /* testProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DFF3EC2ADD8AE700B40EBA /* testProjectUITestsLaunchTests.swift */; };
+		94DFF3FA2ADD8EA500B40EBA /* counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DFF3F92ADD8EA500B40EBA /* counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		94DFF3E62ADD8AE700B40EBA /* testProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DFF3EA2ADD8AE700B40EBA /* testProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testProjectUITests.swift; sourceTree = "<group>"; };
 		94DFF3EC2ADD8AE700B40EBA /* testProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94DFF3F92ADD8EA500B40EBA /* counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		94DFF3BD2ADD8AE500B40EBA = {
 			isa = PBXGroup;
 			children = (
+				94DFF3F92ADD8EA500B40EBA /* counter.swift */,
 				94DFF3C82ADD8AE500B40EBA /* testProject */,
 				94DFF3DF2ADD8AE700B40EBA /* testProjectTests */,
 				94DFF3E92ADD8AE700B40EBA /* testProjectUITests */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94DFF3FA2ADD8EA500B40EBA /* counter.swift in Sources */,
 				94DFF3CE2ADD8AE500B40EBA /* ViewController.swift in Sources */,
 				94DFF3CA2ADD8AE500B40EBA /* AppDelegate.swift in Sources */,
 				94DFF3CC2ADD8AE500B40EBA /* SceneDelegate.swift in Sources */,
